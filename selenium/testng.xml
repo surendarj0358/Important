@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="3">
+    <listeners>
+        <listener class-name="testNG.Listener"></listener>
+    </listeners>
+    <test verbose="4" preserve-order="true" name="/home/surenj/IdeaProjects/selenium/src/testNG">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"></parameter>
+<!--        <parameter name="FictionBookName" value="White Nights"></parameter>-->
+<!--        <parameter name="NonFictionBookName" value="The Story of My Experiments with Truth"></parameter>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="NonFiction"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+<!--            <class name="testNG.TestNG2"></class>-->
+<!--            <class name="testNG.TestNG3"></class>-->
+<!--            <class name="testNG.TestNGFirst"></class>-->
+<!--            <class name="testNG.Grouping"></class>-->
+<!--            <class name="testNG.Parameterization"></class>-->
+<!--            <class name="testNG.ParallelExe"></class>-->
+            <class name="testNG.Parameterization2"></class>
+        </classes>
+    </test>
+</suite>
