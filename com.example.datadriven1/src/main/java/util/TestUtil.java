@@ -18,7 +18,7 @@ public class TestUtil {
     public static Object[][] getExcelData(String sheetName){
         FileInputStream file = null;
         try {
-             file = new FileInputStream(testDataPath);
+             file = new FileInputStream(testDataPath); //we can also use XSSFWorkbook here.
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
