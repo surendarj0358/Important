@@ -1,0 +1,6 @@
+username=Admin
+password=admin123
+url=https://opensource-demo.orangehrmlive.com/
+browser=Chrome
+headless = no
+driverLocation =/home/surenj/Downloads/Selenium/chromedriver
